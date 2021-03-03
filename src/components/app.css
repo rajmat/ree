@@ -1,0 +1,38 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+li {
+  position: relative;
+  background-color: beige;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+li div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+section {
+  width: 70%;
+}
+
+li .score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  font-size: 30pt;
+}
+
+.score span:hover {
+  cursor: pointer;
+  color: red;
+}
